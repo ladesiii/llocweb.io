@@ -1,0 +1,122 @@
+html{
+    font-family: arial;
+}
+.escudo {
+    float: left;
+    margin-left:200px;
+    margin-bottom: 10px;
+}
+.logo {
+    float: right;
+    margin-right:200px;
+    margin-bottom: 10px;
+}
+.E1{
+    background-color: #0B0B3B;
+    font-size: 16px;
+    font-family:Arial;
+    margin-top: 40px;
+}
+.menuhorizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+.menuhorizontal > li > a{
+    display: block;
+    padding:20px 20px;
+    color:#FDC52C;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menuhorizontal >li:hover{
+    opacity: 70%;
+}
+.menuvertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    background-color:rgba(11, 11, 59, 0.7) ;
+}
+.menuvertical li:hover{
+    opacity: 60%;
+}
+.menuvertical>li>a{
+    font-size: 16px;
+    color:#FDC52C;
+    text-decoration: none; 
+}
+.menuhorizontal li:hover .menuvertical{
+    display: block;
+    padding: 15px ;
+    text-align: center;
+}
+.E2{
+    background-color: #5755ab;
+    font-size: 20px;
+    font-family:Arial;
+    min-width: none;
+}
+h1{
+    color: white;
+    margin-left: 200px;
+}
+h2 {
+    margin-left: 300px;
+    font-family: Arial;
+    font-size: 16px;
+}
+#h1concerts{
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.textoimg{
+    display: flex;
+}
+video{
+    width: 600px;
+    height: 300px;
+}
+td,th{
+    border: black 1px solid;
+    border-collapse: separate;
+    text-align: center;
+    padding: auto;
+}
+.inici{
+    margin-left: 300px;
+    border: 0px;
+}
+.img:hover{
+    opacity: 0.6;
+}
+.img{
+    border: 0px;
+}
+tr{
+    border: 0px;
+}
+
+.tabla{
+    margin-left: 200px;
+}
+
+.iniciales{
+    font-size: 30px;
+    border: 0px;
+    text-align: left;
+}
+.nombre{ 
+    font-size: 12px;
+    text-align: left;
+    font-weight: bold;
+    border: 0px;
+}
+.genero{ 
+    font-size: 12px; 
+    text-align: left;
+    border: 0px;
+
+}
